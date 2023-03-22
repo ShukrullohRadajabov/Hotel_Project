@@ -19,6 +19,7 @@ public class Room {
     @Column(name = "floor")
     private Integer floor;
     @Column(name = "type")
+    @Enumerated(EnumType.STRING)
     private RoomType type;
     @Column(name = "price")
     private Double price;

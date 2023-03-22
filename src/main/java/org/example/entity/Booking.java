@@ -2,7 +2,6 @@ package org.example.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 
@@ -19,7 +18,6 @@ public class Booking {
     private Integer guest_id;
     @Column(name = "room_id")
     private Integer room_id;
-
     @Column(name = "starting_date")
     private LocalDate startingDate;
     @Column(name = "during")

@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b85ede5-af8f-46d3-bc19-e8fdea66a8c5" name="Changes" comment="All Entities connect">
+    <list default="true" id="9b85ede5-af8f-46d3-bc19-e8fdea66a8c5" name="Changes" comment="All Entities connect2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,9 @@
       <updated>1679164798761</updated>
       <workItem from="1679164800000" duration="1329000" />
       <workItem from="1679237552503" duration="5866000" />
-      <workItem from="1679243787905" duration="22000" />
+      <workItem from="1679243787905" duration="4848000" />
+      <workItem from="1679463041221" duration="2020000" />
+      <workItem from="1679467819929" duration="3316000" />
     </task>
     <task id="LOCAL-00001" summary="All Entities connect">
       <created>1679243614551</created>
@@ -77,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679243614551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All Entities connect2">
+      <created>1679243857448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679243857448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All Entities connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Entities connect" />
+    <MESSAGE value="All Entities connect2" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Entities connect2" />
   </component>
 </project>
