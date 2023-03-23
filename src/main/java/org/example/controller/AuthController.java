@@ -1,5 +1,7 @@
 package org.example.controller;
 
+import org.example.entity.Employee;
+import org.example.service.AdminController;
 import org.example.service.AuthService;
 import org.example.utils.ScannerUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +13,10 @@ public class AuthController {
     private AuthService authService;
     @Autowired
     private ScannerUtil scannerUtil;
+    @Autowired
+    private AdminController adminController;
 
-    public void start() {
+    private void start() {
         boolean a = true;
         while (a) {
             headerMenu();
@@ -33,7 +37,12 @@ public class AuthController {
     private void login() {
         System.out.println("Enter phone number: ");
         String phoneNumber = scannerUtil.STR_SCANNER.nextLine();
-        authService.login(phoneNumber);
+        Employee employee = authService.login(phoneNumber);
+        if(employee==null){
+            System.out.println( "Wrong phone number");
+        }else{
+            adminController.adminMenu();
+        }
     }
 
     private void headerMenu() {

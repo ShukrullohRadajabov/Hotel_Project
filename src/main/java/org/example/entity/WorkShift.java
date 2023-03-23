@@ -18,5 +18,6 @@ public class WorkShift {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "working_shift")
+    @Enumerated(EnumType.STRING)
     private Work_Shift workShift;
 }

@@ -17,5 +17,6 @@ public class Complaint {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "complaint_type")
+    @Enumerated(EnumType.STRING)
     private ComplaintType complaintType;
 }

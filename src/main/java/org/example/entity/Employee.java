@@ -23,6 +23,7 @@ public class Employee {
     @Column(name = "birth_date")
     private LocalDate birthDate;
     @Column(name = "status")
+    @Enumerated(EnumType.STRING)
     private EmployeeStatus status;
     @Column(name = "employee_type_id")
     private Integer employeeType_id;

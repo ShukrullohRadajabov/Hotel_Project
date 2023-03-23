@@ -18,5 +18,6 @@ public class EmployeeType {
     private Integer id;
 
     @Column(name = "employee_t")
+    @Enumerated(EnumType.STRING)
     private org.example.enums.EmployeeType employeeType;
 }

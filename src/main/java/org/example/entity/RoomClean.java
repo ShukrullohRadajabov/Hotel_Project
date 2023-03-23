@@ -20,6 +20,7 @@ public class RoomClean {
     @Column(name = "employee_id")
     private Integer employee_id;
     @Column(name = "clean_time")
+    @Enumerated(EnumType.STRING)
     private Work_Shift workShift;
     @Column(name = "room_id")
     private Integer roomId;

@@ -18,5 +18,6 @@ public class OutCome {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "outcome_type")
+    @Enumerated(EnumType.STRING)
     private OutComeType outComeType;
 }
